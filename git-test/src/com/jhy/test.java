@@ -9,4 +9,9 @@ public class test {
     public static void main(String[] args) {
         System.out.println("aaa");
     }
+
+    public void test1() {
+        int i = 1;
+        i += 10;
+    }
 }
