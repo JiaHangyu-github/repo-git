@@ -8,10 +8,13 @@ package com.jhy;
 public class test {
     public static void main(String[] args) {
         System.out.println("aaa");
+
+        test1();
     }
 
-    public void test1() {
+    public static void test1() {
         int i = 1;
         i += 10;
+        System.out.println(i);
     }
 }
